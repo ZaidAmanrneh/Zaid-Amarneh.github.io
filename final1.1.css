@@ -1,0 +1,23 @@
+#info {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.nav{
+    width: 20%;
+    /* border: 2px solid black; */
+    border-right: 2px solid black;
+    height: 30px;
+    text-align: center;
+}
+
+.nav:last-child {
+    border-right: 0;
+}
+
+section {
+    background-color: purple;
+    height: 50vh;
+}
