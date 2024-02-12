@@ -3,40 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reparo</title>
+    <title>Reparo - Future Home Solutions</title>
     <link rel="stylesheet" href="final1.1.css">
 </head>
 <body>
-   
-    <div id="info">
-        <div class="nav"><a>Home</a></div> 
-        <div class="nav"> <a>About us </a></div>
-        <div class="nav"><a >Join Us </a></div>
-        <div class="nav" ><a>Blog </a></div>
-        <div class="nav"><a>Contact Us</a></div>
-            
-    </div>
-    <h1>Reparo</h1>
+    <header>
+        <h1>Reparo</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section>
-        <h2>Why Reparo?</h2>
-        <p  style="width: 500px !important; height: 150px !important;" >Reparo is your all-in-one solution 
-        for seamless living. Specializing in hassle-free maintenance, construction dreams,
-        personalized interior design, pool care, and stress-free relocations, 
-        ReparoHub ensures your home is a sanctuary. With verified professionals, 
-        a user-friendly platform, and tailored services, 
-        ReparoHub stands out as the go-to choice for homeowners seeking excellence and convenience.
-        The name "Reparo," Latin for repair, reflects their commitment to precision and mastery in every service.
-        Elevate your living experience with ReparoHub, where your home takes center stage, 
-        and repairs are transformed into an art.</p>
-        </section>
-    <section>
-        
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Reparo is your ultimate solution for seamless living, offering a comprehensive range of services to simplify home management and enhancement. From maintenance tasks like fixing leaky faucets to realizing your dream home with experienced builders, our platform connects you with trusted professionals for every need. Our expert decorators personalize your living space, while pool maintenance specialists keep your oasis pristine. Say goodbye to the stress of moving with our seamless relocation services. With Reparo, you'll enjoy a one-stop solution, verified professionals, user-friendly booking, and customized services tailored to your unique requirements. Experience the future of convenient living with Reparo – where comfort, convenience, and quality come together to create your perfect home sanctuary.</p>
     </section>
 
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Smart Home Automation</li>
+            <li>Virtual Reality Interior Design</li>
+            <li>Advanced Home Security Solutions</li>
+        </ul>
+    </section>
 
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
-
-    
+    <footer>
+        <p>&copy; 2024 Reparo. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
